@@ -4,37 +4,46 @@
         <meta charset="utf-8">
         <style>
             body {
-            font-family: Arial;
-            padding: 20px;
-            background: #f1f1f1;
+                font-family: Arial;
+                padding: 20px;
+                background: #f1f1f1;
             }
 
             .header {
-            padding: 30px;
-            font-size: 40px;
-            text-align: center;
-            background: white;
+                padding: 30px;
+                font-size: 40px;
+                text-align: center;
+                background: white;
             }
 
-            /* Fake image */
-            .fakeimg {
-            background-color: #aaa;
-            width: 100%;
-            padding: 20px;
+            .imgback {
+                background-color: #aaa;
+                width: 100%;
+                padding: 20px;
+            }
+
+            .leftcolumn {   
+                float: left;
+                width: 50%;
+            }
+
+            .rightcolumn {
+                float: left;
+                width: 50%;
             }
 
             .card {
-            background-color: white;
-            padding: 20px;
-            margin-top: 20px;
+                background-color: white;
+                padding: 20px;
+                margin-top: 20px;
             }
 
 
             .footer {
-            padding: 20px;
-            text-align: center;
-            background: #ddd;
-            margin-top: 20px;
+                padding: 20px;
+                text-align: center;
+                background: #ddd;
+                margin-top: 20px;
             }
         </style>
     </head>
@@ -48,17 +57,21 @@
     <div class="card">
         <h2>City of Mérida Yucatán </h2>
         <h5>This is blog page of the Mérida City. Here you will find all the cultural, sports and gastronomic information about the city, Sept 6, 2021</h5>
-        <div><img src="merida2.jpg" class="fakeimg" alt="Mérida City"></div>
-        <p>In 1542 the Spanish conquistadors found the Mayan site called "T'Hó" which means "place of the five hills". 
-            There they discovered a settlement that reminded them of the vestiges of Mérida, in Extremadura, Spain. 
-            They rebaptized the city and used the stones of the temples for the construction of the cathedral, government buildings and the houses of the conquerors.
-        </p>
-        <p>
-            Today, Merida is the economic, cultural and service capital of southeastern Mexico. 
-            It is an easily accessible cosmopolitan destination connected by air, sea and land with the world thanks to a privileged geographical location. 
-            It is a place that enjoys true originality, an expressive richness with universal value and scope. 
-            In 2019, the city was designated a Creative Gastronomic City by UNESCO.)
-        </p>
+        <div class="leftcolumn">
+            <div><img src="merida2.jpg" class="imgback" alt="Mérida City"></div>
+        </div>
+        <div class="rightcolumn">
+            <p>In 1542 the Spanish conquistadors found the Mayan site called "T'Hó" which means "place of the five hills". 
+                There they discovered a settlement that reminded them of the vestiges of Mérida, in Extremadura, Spain. 
+                They rebaptized the city and used the stones of the temples for the construction of the cathedral, government buildings and the houses of the conquerors.
+            </p>
+            <p>
+                Today, Merida is the economic, cultural and service capital of southeastern Mexico. 
+                It is an easily accessible cosmopolitan destination connected by air, sea and land with the world thanks to a privileged geographical location. 
+                It is a place that enjoys true originality, an expressive richness with universal value and scope. 
+                In 2019, the city was designated a Creative Gastronomic City by UNESCO.)
+            </p>
+        </div>
     </div>
     <div class="card">
       <h2>TITLE HEADING</h2>
